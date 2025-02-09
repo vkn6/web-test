@@ -81,68 +81,49 @@ nav ul li a:hover {
 /* Contact Form Styles */
 #contact-form {
     background: rgba(255, 255, 255, 0.9);
-    padding: 30px;
+    padding: 15px; /* Reduce padding */
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 350px; /* Reduce max width */
     width: 100%;
-    margin: 20px;
+    margin: 10px auto; /* Reduce margin */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #contact-form h2 {
-    margin-top: 0;
-    color: #333;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 18px; /* Reduce heading size */
+    margin-bottom: 15px;
+	color: black; /* Change heading text to black */
 }
 
 #contact-form label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #333;
-    font-size: 16px;
+    font-size: 14px; /* Reduce label size */
+    margin-top: 10px;
+	color: black; /* Change label text to black */
 }
 
 #contact-form input,
 #contact-form textarea {
     width: 100%;
-    padding: 12px;
-    margin-top: 8px;
+    padding: 8px; /* Reduce padding */
+    font-size: 14px; /* Reduce font size */
+    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
     box-sizing: border-box;
 }
 
-#contact-form input:focus,
-#contact-form textarea:focus {
-    border-color: #333;
-    outline: none;
-}
-
 #contact-form textarea {
-    resize: vertical;
-    min-height: 150px;
+    height: 80px; /* Reduce height */
+    resize: none;
 }
 
 #contact-form button {
-    margin-top: 25px;
-    padding: 12px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    padding: 8px 12px; /* Reduce button size */
+    font-size: 14px;
     width: 100%;
-    transition: background-color 0.3s ease;
+    margin-top: 15px;
 }
 
-#contact-form button:hover {
-    background-color: #555;
-}
 
 /* Contact Information Styles */
 #contact-info {
